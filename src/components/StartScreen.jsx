@@ -5,7 +5,7 @@ function StartScreen({ numQuestions, dispatch }) {
       <h3>{numQuestions} questions to test your React Mastery</h3>
       <button
         className="btn btn-ui"
-        onClick={() => dispatch({ type: "active" })}
+        onClick={() => dispatch({ type: "start" })}
       >
         Let's start
       </button>
